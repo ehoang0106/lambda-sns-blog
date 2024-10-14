@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     email = event['queryStringParameters']['email']
     topic_arn = os.getenv('SNS_TOPIC_ARN')
     
-    message = f"Thank you for the subscription. The confirmation has been sent to {email}. Please check your email"
+    message = f"Thank you for the subscription. The confirmation has been sent to {email}. Please check your email!"
     try:
         response = sns.subscribe(
             TopicArn=topic_arn,
