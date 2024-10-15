@@ -4,7 +4,7 @@
 2. Copy the ARN (Amazon Resource Name) of the SNS topic for later use.
 
 ### 2. Create Lambda Function for Email Notifications
-
+In this case, I'm using Python as a runtime.
 1. Develop a Lambda function named `NewPostSendEmail.py` that triggers the SNS topic.
 2. Utilize the AWS SDK `boto3` to connect Python with AWS services in your function code.
 3. Use the `os` library to retrieve the SNS ARN from environment variables. Navigate to `Lambda` -> `Configuration` -> `Environment variables` to set the `key` and `value`.
