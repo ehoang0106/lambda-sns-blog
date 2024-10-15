@@ -16,7 +16,7 @@ In this case, I'm using Python as a runtime.
 ### 3. Configure S3
 
 1. Set up an S3 event notification.
-2. Create an event notification to capture all object creation events (this is a placeholder; improvements will be made in the future).
+2. Create an event notification. Select `PUT` in the creation, to only trigger notifications for new file uploads (not overwrites).
 3. Set the destination for the event notification to be the Lambda function.
 
 ![alt text](<images/lambda-sns- (4).png>)
