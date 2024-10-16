@@ -1,3 +1,4 @@
+![cover](https://blog.khoahoang.dev/images/sns.jpg)
 ### 1. Set Up SNS
 
 1. Create an SNS topic using the `email` protocol.
